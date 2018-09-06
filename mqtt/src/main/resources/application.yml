@@ -1,0 +1,11 @@
+mqtt:
+    host: tcp://127.0.0.1:1883
+    clientid: mqtt_springboot
+    topic: good,test,yes
+    username: yusei
+    password: test
+    timeout: 10
+    keepalive: 20
+
+server:
+    port: 18080
